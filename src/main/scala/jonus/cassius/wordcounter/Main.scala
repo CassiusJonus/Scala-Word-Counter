@@ -1,5 +1,8 @@
 package jonus.cassius.wordcounter
 
+import scala.io.StdIn
+
+
 /**
  * 
  * The entry point for the application. 
