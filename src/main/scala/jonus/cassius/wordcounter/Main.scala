@@ -1,6 +1,6 @@
 package jonus.cassius.wordcounter
 
-object WordCounter {
+object Main {
 
   def main(args: Array[String]): Unit = {}
 }
