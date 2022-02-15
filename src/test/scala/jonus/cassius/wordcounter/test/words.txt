@@ -1,0 +1,2 @@
+These are some words.
+They should be counted correctly (in the tests for this application).
