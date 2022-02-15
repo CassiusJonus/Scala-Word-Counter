@@ -2,4 +2,4 @@
 *.log
 .scalafmt.conf
 .vscode/
-**/target
+**/target/

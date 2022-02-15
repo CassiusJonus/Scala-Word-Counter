@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "scala-word-counter-build",
-        "directory": "C:\\Dev\\Scala\\scala-word-counter\\project",
-        "workspaceDir": "C:\\Dev\\Scala\\scala-word-counter\\project",
+        "directory": "C:\\Dev\\Git\\Scala-Word-Counter\\project",
+        "workspaceDir": "C:\\Dev\\Git\\Scala-Word-Counter\\project",
         "sources": [
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\src\\main\\scala",
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\src\\main\\scala-2.12",
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\src\\main\\scala-2",
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\src\\main\\java",
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\src\\main\\scala",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\src\\main\\scala-2.12",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\src\\main\\scala-2",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\src\\main\\java",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -105,11 +105,11 @@
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar",
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.3.3\\config-1.3.3.jar"
         ],
-        "out": "C:\\Dev\\Scala\\scala-word-counter\\project\\.bloop\\scala-word-counter-build",
-        "classesDir": "C:\\Dev\\Scala\\scala-word-counter\\project\\.bloop\\scala-word-counter-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Dev\\Git\\Scala-Word-Counter\\project\\.bloop\\scala-word-counter-build",
+        "classesDir": "C:\\Dev\\Git\\Scala-Word-Counter\\project\\.bloop\\scala-word-counter-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\src\\main\\resources",
-            "C:\\Dev\\Scala\\scala-word-counter\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\src\\main\\resources",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -202,7 +202,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-17.0.2",
                 "options": [
-                    "-Duser.dir=C:\\Dev\\Scala\\scala-word-counter\\project"
+                    "-Duser.dir=C:\\Dev\\Git\\Scala-Word-Counter\\project"
                 ]
             },
             "mainClass": [

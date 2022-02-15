@@ -20,15 +20,14 @@ object Main {
     |
     """)
    
-   val wordsOrError: Either[String, List[String]] = WordCounter.getWordsFrom(getFilePath())
-   wordsOrError match {
+    val wordsOrError: Either[String, Iterator[String]] = WordCounter.getWordsFrom(getFilePath())
+   /* wordsOrError match {
      case Right(words) => println(s"The number of words in the file is ${WordCounter.count(words)}")
      case Left(error) => println(error)
-   }
+   } */
   }
 
   def getFilePath(): String = {
-    println("Enter the path to a text file: ")
-    StdIn.readLine
+    StdIn.readLine("Enter the path to a text file: ")
   }
 }
