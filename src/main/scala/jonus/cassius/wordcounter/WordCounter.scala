@@ -8,6 +8,8 @@ import scala.io.{Source, BufferedSource, File}
 
 object WordCounter:
 
-
+  def getWordsFrom(path: String): List[String] = {
+    
+  }
 
 end WordCounter
