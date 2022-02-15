@@ -11,13 +11,19 @@ object WordCounter:
 
   def getLinesFrom(path: String): Either[String, Iterator[String]] = {
     import scala.util.Either
-    val fileSource = Source.fromFile(path)(Codec.UTF8)
-    try
-      Right(fileSource.getLines())
+    try {
+      val fileSource = Source.fromFile(path)(Codec.UTF8)
+      try
+        Right(fileSource.getLines())
+      catch {
+
+        case e: IOException =>
+          Left("An error occurred while trying to access the path specified. Perhaps the path is invalid.")
+      }
+      finally fileSource.close()
+    }
     catch {
       case e: FileNotFoundException => Left(s"$path does not exist.")
-      case e: IOException =>
-        Left("An error occurred while trying to access the path specified. Perhaps the path is invalid.")
     }
   }
 
