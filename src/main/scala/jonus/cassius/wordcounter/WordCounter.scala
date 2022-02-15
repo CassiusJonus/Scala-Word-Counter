@@ -23,6 +23,6 @@ object WordCounter:
     }
   }
 
-def count(words: Iterator[String]): Int = words.flatMap(_.split("\\W+").iterator).size
+  def count(words: Iterator[String]): Int = words.flatMap(_.split("\\W+").iterator).size
 
 end WordCounter

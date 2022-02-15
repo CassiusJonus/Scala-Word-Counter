@@ -2,13 +2,13 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "C:\\Dev\\Scala\\scala-word-counter",
-        "workspaceDir": "C:\\Dev\\Scala\\scala-word-counter",
+        "directory": "C:\\Dev\\Git\\Scala-Word-Counter",
+        "workspaceDir": "C:\\Dev\\Git\\Scala-Word-Counter",
         "sources": [
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\main\\scala",
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\main\\scala-3",
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\main\\java",
-            "C:\\Dev\\Scala\\scala-word-counter\\target\\scala-3.1.1\\src_managed\\main"
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\main\\scala",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\main\\scala-3",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\main\\java",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\target\\scala-3.1.1\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -17,11 +17,11 @@
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.1.1\\scala3-library_3-3.1.1.jar",
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar"
         ],
-        "out": "C:\\Dev\\Scala\\scala-word-counter\\.bloop\\root",
-        "classesDir": "C:\\Dev\\Scala\\scala-word-counter\\.bloop\\root\\scala-3\\classes",
+        "out": "C:\\Dev\\Git\\Scala-Word-Counter\\.bloop\\root",
+        "classesDir": "C:\\Dev\\Git\\Scala-Word-Counter\\.bloop\\root\\scala-3\\classes",
         "resources": [
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\main\\resources",
-            "C:\\Dev\\Scala\\scala-word-counter\\target\\scala-3.1.1\\resource_managed\\main"
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\main\\resources",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\target\\scala-3.1.1\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -137,7 +137,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-17.0.2",
                 "options": [
-                    "-Duser.dir=C:\\Dev\\Scala\\scala-word-counter"
+                    "-Duser.dir=C:\\Dev\\Git\\Scala-Word-Counter"
                 ]
             },
             "mainClass": [

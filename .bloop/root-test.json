@@ -2,19 +2,19 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "C:\\Dev\\Scala\\scala-word-counter",
-        "workspaceDir": "C:\\Dev\\Scala\\scala-word-counter",
+        "directory": "C:\\Dev\\Git\\Scala-Word-Counter",
+        "workspaceDir": "C:\\Dev\\Git\\Scala-Word-Counter",
         "sources": [
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\test\\scala",
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\test\\scala-3",
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\test\\java",
-            "C:\\Dev\\Scala\\scala-word-counter\\target\\scala-3.1.1\\src_managed\\test"
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\test\\scala",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\test\\scala-3",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\test\\java",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\target\\scala-3.1.1\\src_managed\\test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "C:\\Dev\\Scala\\scala-word-counter\\.bloop\\root\\scala-3\\classes",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\.bloop\\root\\scala-3\\classes",
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.1.1\\scala3-library_3-3.1.1.jar",
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\novocode\\junit-interface\\0.11\\junit-interface-0.11.jar",
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.6\\scala-library-2.13.6.jar",
@@ -22,11 +22,11 @@
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar",
             "C:\\Users\\Veget\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar"
         ],
-        "out": "C:\\Dev\\Scala\\scala-word-counter\\.bloop\\root",
-        "classesDir": "C:\\Dev\\Scala\\scala-word-counter\\.bloop\\root\\scala-3\\test-classes",
+        "out": "C:\\Dev\\Git\\Scala-Word-Counter\\.bloop\\root",
+        "classesDir": "C:\\Dev\\Git\\Scala-Word-Counter\\.bloop\\root\\scala-3\\test-classes",
         "resources": [
-            "C:\\Dev\\Scala\\scala-word-counter\\src\\test\\resources",
-            "C:\\Dev\\Scala\\scala-word-counter\\target\\scala-3.1.1\\resource_managed\\test"
+            "C:\\Dev\\Git\\Scala-Word-Counter\\src\\test\\resources",
+            "C:\\Dev\\Git\\Scala-Word-Counter\\target\\scala-3.1.1\\resource_managed\\test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -142,7 +142,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-17.0.2",
                 "options": [
-                    "-Duser.dir=C:\\Dev\\Scala\\scala-word-counter"
+                    "-Duser.dir=C:\\Dev\\Git\\Scala-Word-Counter"
                 ]
             },
             "mainClass": [
