@@ -1,6 +1,6 @@
 package jonus.cassius.wordcounter
 
-import scala.io.{BufferedSource, Codec, File, Source}
+import scala.io.{BufferedSource, Codec, Source}
 import java.io.{FileNotFoundException, IOException}
 import java.io.File
 
@@ -11,11 +11,9 @@ object WordCounter:
 
   def getLinesFrom(path: String): Either[String, Iterator[String]] = {
     import scala.util.Either
-
-    try {
-      val fileSource = Source.fromFile(path)(Codec.UTF8)
+    val fileSource = Source.fromFile(path)(Codec.UTF8)
+    try
       Right(fileSource.getLines())
-    }
     catch {
       case e: FileNotFoundException => Left(s"$path does not exist.")
       case e: IOException =>
