@@ -1,6 +1,17 @@
 package jonus.cassius.wordcounter
 package test
 
+import scala.io.{BufferedSource, Codec, Source}
+import scala.util.Either
+
 import org.scalatest.flatspec.AnyFlatSpec
 
-class WordCounterSpec {}
+import jonus.cassius.wordcounter.WordCounter
+
+class WordCounterSpec extends AnyFlatSpec {
+
+  "An empty file" should "have no lines" in {
+    val emptyFile = Source.fromFile("empty.txt")(Codec.UTF8)
+    assert(emptyFile.getLines.isEmpty)
+  }
+}
